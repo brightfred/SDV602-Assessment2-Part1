@@ -12,8 +12,8 @@ Navigation between screens(prev and next buttons).
 Displays charts(plots) in the des windows.
 
 References:
-- PySimpleGUI Documentation: https://pysimplegui.readthedocs.io/en/latest/
-- Matplotlib Documentation: https://matplotlib.org/stable/contents.html
+- PySimpleGUI documentation: https://pysimplegui.readthedocs.io/en/latest/
+- Matplotlib documentation: https://matplotlib.org/stable/contents.html
 """
 
 import PySimpleGUI as sg

@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 """
 historical_data.py
 
-This module contains the code of the "historical data" layout and the function to create the chart(line).
-I use matplotlib to create the line chart and simplegui to create the layout.
+This module contains the "historical data" layout and the function to create the chart(line).
+I use matplotlib to create the line chart and pysimplegui to create the layout.
 """
 
 
@@ -42,7 +42,7 @@ def create_historical_chart():
     Reference for plt.subplots,ax.set and ax.plot: 
     https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
-    For V2(TO DO):
+    #TODO - For V2:
     The ylabel of my chart should be dynamic. It should change according to the data type selected by the user.
     I will add more data type after looking at the openweather app api documentation and see what is available.
     The title name should be dynamic according to the years selected by the user,the city and the data type(Example: Temperature in Nelson in 1998).

@@ -4,15 +4,15 @@ import matplotlib.pyplot as plt
 """
 yearly_comparison.py
 
-This module contains the code of the "Yearly comparison" layout and the function to create the chart(line).
-I use matplotlib to create the line chart and simplegui to create the layout.
+This module contains the "Yearly comparison" layout and the function to create the chart(line).
+I use matplotlib to create the line chart and pysimplegui to create the layout.
 """
 
 
 
 def yearly_des_layout():
     """
-    Function to create the layout of this "Yearly comparison" des.
+    Function to create the layout.
     The chatbox and chatinput are non-functional at the moment.Same for the fetch weather button.
     Reference for combo: https://docs.pysimplegui.com/en/latest/cookbook/original/keybad_entry/
     Reference for multiline: https://docs.pysimplegui.com/en/latest/documentation/module/elements/multiline/
@@ -37,12 +37,8 @@ def yearly_des_layout():
 
 def create_yearly_chart():
     """
-
     This function create a double line chart about two chosen year of a specific data type.
     It is hardcoded at the moment with dummy data.
-
-    #FIXME - i tried to use year 1 and year 2 as parameter to display the year 
-    #  by the user but wasnt working yet.Need to fix this for V2
 
     #TODO - For V2:
     The ylabel of my chart should be dynamic. It should change according to the data type selected by the user.
@@ -52,7 +48,6 @@ def create_yearly_chart():
     The label of my chart should also be dynamic. It should display the chosen years by the user.
 
     Reference for plt.subplots,ax.set and ax.plot: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
-
     """
     fig, ax = plt.subplots(figsize=(10, 4))  
     categories = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']

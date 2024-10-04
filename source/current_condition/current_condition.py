@@ -5,9 +5,9 @@ import datetime
 """
 current_condition.py
 
-This module contains the code of the current condition layout and the function to create the chart(line).
+This module contains the current condition layout and the function to create the chart(line).
 I use datetime librairy to get the current date to display in my layout.
-I use matplotlib to create the line chart and simplegui to create the layout.
+I use matplotlib to create the line chart and pysimplegui to create the layout.
 """
 
 
@@ -44,7 +44,7 @@ def currentCondition_des_layout():
 def create_currentCondition_chart():
     
     """
-    Function to create a line chart about a specific time(Now) of a chosen data type and a chosen city .
+    Function to create the chart about a specific time(Now) of a chosen data type and a chosen city .
     It is hardcoded at the moment with dummy data.
     
     #TODO - For V2:
