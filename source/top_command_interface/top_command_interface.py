@@ -14,8 +14,7 @@ def create_top_interface():
     Reference for expand_x: https://docs.pysimplegui.com/en/latest/documentation/module/common_element_parameters/#expand_x-expand_y
     Reference for location: https://docs.pysimplegui.com/en/latest/call_reference/tkinter/window/
     Reference for push: https://docs.pysimplegui.com/en/latest/documentation/module/layouts/#push
-    Reference for sg.window: https://docs.pysimplegui.com/en/latest/call_reference/#window
-    https://docs.pysimplegui.com/en/latest/documentation/what_is_it/window_creation/#creating-the-window
+    Reference for sg.window: https://docs.pysimplegui.com/en/latest/documentation/what_is_it/window_creation/#creating-the-window
     """
     layout = [
         [sg.Text('Weather Data App', font=('Arial', 20), justification='center', expand_x=True)],
