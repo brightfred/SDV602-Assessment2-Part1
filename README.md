@@ -21,7 +21,7 @@ Git to clone the repository
 (In your terminal) git clone https://github.com/brightfred/SDV602_Assessment2_milestone1_Frederick_laroche.git
 
 
-Project directory:
+Move to source directory:
 cd source
 
 Set up a virtual environment:
@@ -29,10 +29,10 @@ python -m venv venv
 venv\Scripts\activate
 
 Install dependencies:
-pip install -r requirements.txt
-Running the Application
+pip install PysimpleGui
+pip install Mathplotlib
 
-Run the app:
+Running the application
 (In your terminal)python main.py
 
 
