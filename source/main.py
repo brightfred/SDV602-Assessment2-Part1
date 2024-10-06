@@ -153,7 +153,8 @@ def main():
 
         elif window in windows: 
             # events from the des windows
-            # I use len(windows) to get the right index for the current window
+            # I use len(windows) to get the lenght and use the modulo operator % only if i go over the lenght.if i stay in the range of the lenght,
+            # i just go to the next window or the previous one.
             if event == 'Prev':
                 windows[current_window_index].Hide()
                 current_window_index = (current_window_index - 1) % len(windows)
